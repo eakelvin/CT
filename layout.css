@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    background-color:rgb(169, 193, 193);
+    height: 100px;
+}
+
+.two {
+    background-color:rgb(169, 193, 193);
+    height: 300px;
+    margin-top: 20px;
+}
+
+.group {
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.three {
+    background-color:rgb(169, 193, 193);
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+.four {
+    background-color: rgb(169, 193, 193);
+    height: 60px;
+}

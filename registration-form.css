@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(227, 237, 253);
+    font-size: 16px;
+}
+
+.card {
+    width: 650px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px solid gray;
+    height: 220px;
+    padding: 30px;
+    margin: 20px auto;
+    border-top: solid #3a86ff 10px;
+}
+
+.title {
+    padding-bottom: 12px;
+}
+
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+}
+
+.link1 {
+    padding-top: 12px;
+}
+.link2 {
+    padding-bottom: 12px;
+    padding-top: 10px;
+    color: red;
+}
+
+.card1 {
+    width: 650px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px solid gray;
+    height: 140px;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+.hash {
+    color: red;
+}
+
+#all{
+    border: none;
+   padding-top: 24px;
+   border-bottom ;
+}
+
+.card1a{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#ct {
+    
+}
+
+.label1{
+    padding: 6px;
+    padding-top: 12px;
+}
+
+.single{
+    margin: 20px auto;
+}
+
+.bor {
+    border: 1px solid black;
+    width: 50%;
+    height: 30px;
+    margin: 25px 440px;
+    border: none;
+}
+
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin: 25px auto;
+}
+
+.submit {
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 13%;
+    padding: 1rem 0;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.color{
+    width: 20%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: green;
+    align-items: center;
+}

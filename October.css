@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+li, a, button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    color:cornflowerblue;
+    text-decoration: none
+}
+p{
+    font-family: 'Sono', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px 10%;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+}
+
+.logo {
+    cursor: pointer;
+    height: 80px;
+    width: 15%;
+    margin-right: auto;
+}
+
+.navlink {
+    background-color: lightblue;
+}
+
+.navlink li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navlink li a:hover {
+    color: chartreuse;
+}
+
+main {
+    display: flex;
+}
+
+.cont {
+    padding: 9px 25px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.cont:hover {
+    background-color: darkgoldenrod;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.eppme {
+    margin: 20px;
+    padding: 0 16px;
+    line-height: 30px;
+}
+.epp {
+    margin: 20px;
+    padding: 0 16px;
+    line-height: 20px;
+}
+
+.dupe {
+    font-family:'Sono', sans-serif;
+    font-size: 17px;
+    color: black;
+}
+.joha {
+    color: forestgreen;
+    font-family:'Sono', sans-serif;
+    font-size: 16px;
+}
+
+.stop {
+    padding-top: 20px;
+}
+
+.start {
+    background-color: black;
+    padding: 1.5rem 0;
+    color: white;
+    width: 60%;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border-radius: 7px;
+}
+.start:hover{
+    background-color: aqua;
+}
+
+.body2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.fast {
+    margin-left: 220px;
+    margin-top: 5px;
+    background-image: url(./images/\)b\).jpg);
+    height: 600px;
+    width: 750px;
+}
+
+.fit {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.down li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.down a{
+    font-size: 20px;
+}
+.down a:hover{
+    color: violet;
+}
+
+img{ 
+    width: 25px; 
+    height: 25px;
+}
+
+span{
+    color: deepskyblue;
+}

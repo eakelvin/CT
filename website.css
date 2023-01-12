@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: green;
+    color: white;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    background-color: black;
+    color: white ;
+    padding: 10px;
+}
+
+nav a{
+    color:white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    height: 800px;
+}
+.body1 {
+    background-color: lightgrey;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.me {
+    padding: 15px;
+    font-size: 18px;
+}
+
+
+.me1 {
+    padding: 15px;
+    font-size: 17px;
+}
+
+.image {
+    height: 200px;
+    width: 80%;
+    background-color: gray;
+    margin: 20px;
+    padding: 1em;
+}
+
+.me2 {
+    margin: 20px;
+    font-size: 20px;
+}
+.me3 {
+    padding: 5px;
+    margin-left: 10px;
+}
+.me4 {
+    padding: 10px;
+    font-size: 17px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.image2 {
+    width: 80%;
+    height: 50px;
+    background-color: gray;
+    margin: 20px;
+    padding: 1em;
+}
+
+.body2 {
+    background-color: white; 
+    display: flex;
+    flex-direction: column;  
+}
+
+.image3 {
+    height: 200px;
+    background-color: gray;
+    margin: 20px;
+    padding: 1em;
+}
+
+.foot {
+    background-color: lightslategray;
+    height: 50px;
+    width: 100%;
+}
+
+.foot .feet {
+    text-align: center;
+}
